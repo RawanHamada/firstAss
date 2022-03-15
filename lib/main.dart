@@ -20,11 +20,12 @@ class IugScreen extends StatelessWidget{
     body: Column(children: [
       Image.asset('assets/img/quds.jpg'),
       Center(child: Text('مدينة القدس'
-      ,style:TextStyle(fontSize: 25 ))),
-     Page1(label: 'الاسم: ',value: 'القدس',),
-     Page1(label: 'المساحة: ',value: '125كم',),
-     Page1(label: 'السكان: ',value: '358...نسمة',),
-     Page1(label: 'الدولة: ',value: 'فلسطين',),
+      ,style:TextStyle(fontSize: 30 ))),
+     Page1(label: ':الاسم ',value: 'القدس',),
+     Page1(label: ':المساحة ',value: '١٢٥كم',),
+     Page1(label: ':السكان ',value: '٣٥٨٠٠٠نسمة',),
+     Page1(label: ':الدولة ',value: 'فلسطين',),
+     Page1(label: ':اسم الطالب ',value: 'عمر أحمد علي',),
     ],),
     );
   }
