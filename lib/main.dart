@@ -15,7 +15,7 @@ class IugScreen extends StatelessWidget{
       appBar: AppBar(title: Text('عاصمة فلسطين'
       ,style:TextStyle(fontSize: 30 )),
       centerTitle: true,
-      backgroundColor: Color.fromARGB(255, 245, 237, 237),
+      backgroundColor: Color.fromARGB(255, 138, 90, 184),
 ),
     body: Column(children: [
       Image.asset('assets/img/quds.jpg'),
