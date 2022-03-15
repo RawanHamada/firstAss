@@ -12,10 +12,15 @@ class IugScreen extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      appBar: AppBar(title: Text('عاصمة فلسطين'),
-      centerTitle: true,),
+      appBar: AppBar(title: Text('عاصمة فلسطين'
+      ,style:TextStyle(fontSize: 30 )),
+      centerTitle: true,
+      backgroundColor: Color.fromARGB(255, 130, 40, 204),
+),
     body: Column(children: [
       Image.asset('assets/img/quds.jpg'),
+      Center(child: Text('مدينة القدس'
+      ,style:TextStyle(fontSize: 25 ))),
      Page1(label: 'الاسم: ',value: 'القدس',),
      Page1(label: 'المساحة: ',value: '125كم',),
      Page1(label: 'السكان: ',value: '358...نسمة',),
@@ -24,6 +29,7 @@ class IugScreen extends StatelessWidget{
     );
   }
 }
+
 
 
 
